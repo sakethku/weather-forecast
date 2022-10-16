@@ -1,63 +1,68 @@
-.grid-container {
-        
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding: 5px;
-    height: 100%;
-  }
-  .grid-item1{
+body{
+    position: relative;
+    background-image: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    max-width: fit-content;
+    max-height:fit-content;
+    background-clip: border-box;
+    align-items: center;
+}
+.app-wrap{
+    border: none;
+    margin: 50% 40% 40% 60%;
+    background-color:red;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 330px;
+    height:max-content ;
+    opacity: 0.7;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.search-box{
+    border-radius: 40px;
+    height: 40px;
+    width: 220px;
+    margin-left: 3px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    padding-left: 20px;
+}
+.btn{
+    width: 60px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+}
+.location{
+    color: white;
+    font-size: 40px;
+}
+.current{
+    color:white;
+    font-size: 40px;
+}
+
+.city{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.date{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.temp{
+    font-size: 60px;
+    font-weight: 800;
+}
+.weather{
+    font-size: 30px;
+}
+.hi-low{
+    font-size: 30px;
+}
   
-      background-color: royalblue;
-      display: grid;
-  }
-  .grid-item{
-  
-  background-color: lightgrey;
-  display: grid;
-  }
-  h1, h3{
-      color: white;
-      font-weight: bolder;
-      margin-top: 25%;
-  }
-  span{
-      color: black;
-      font-weight: bolder;
-  }
-  p{
-      color: white;
-      
-  }
-  li{
-      color: white;
-      
-  }
-  .bdy{
-      margin-left: 20%;
-  }
-  .dd{
-      margin-left: 25%;
-      margin-top: 10%;
-  }
-  #pp{
-      color: black;
-  }
-  #show{
-      color: black;
-      font-size: xx-large;
-  }
-  #show1,#show3{
-      color: black;
-      font-size: medium;
-  }
-  #show2{
-      color: black;
-      font-size: xx-large;
-  }
-  #tt{
-      margin-left: 20%;
-      margin-top: 20%;
-  }
-     
-    
